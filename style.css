@@ -39,6 +39,9 @@ body {
   -webkit-backdrop-filter: blur(5px);
           backdrop-filter: blur(5px);
 }
+.keys .key span {
+  pointer-events: none;
+}
 .keys .key span:nth-child(2) {
   color: yellow;
   font-size: medium;

@@ -34,9 +34,13 @@ body {
         color: white;
         transition: all 0.7s;
         backdrop-filter: blur(5px);
+        span{
+            pointer-events: none;
+        }
         span:nth-child(2) {
             color: yellow;
             font-size: medium;
+            
         }
     }
     .play {
