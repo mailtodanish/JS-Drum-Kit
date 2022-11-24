@@ -1,3 +1,7 @@
+/**
+ * author : mohd ahshan danish
+ * 
+ */
 (() => {
     document.addEventListener("keydown", (e) => {
         const el = document.querySelector(`div[data-key="${e.which}"]`);
