@@ -3,6 +3,6 @@
 JavaScript Drum Kit
 
 
-Demo : <https://mailtodanish.github.io/Calculator-in-JS>
+Demo : <https://mailtodanish.github.io/JS-Drum-Kit>
 
 ![alt text](/static/Screenshot.png)
