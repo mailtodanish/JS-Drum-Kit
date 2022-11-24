@@ -1,0 +1,47 @@
+body {
+    background: url("/static/bg.jpg");
+}
+.title{
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 2;
+    margin-left: 50px;
+    color: #ffc600;
+    font-family: againtsregular;
+    text-shadow: 2px 2px 0 #fff, -2px -2px 0 #fff, 2px 2px 3px rgb(0 0 0 / 30%), -2px -2px 3px rgb(0 0 0 / 30%);
+}
+.keys {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    gap: 10px;
+    .key {
+        display: block;
+        height: 100px;
+        width: 100px;
+        border: 1px solid white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-weight: 700;
+        font-size: x-large;
+        transition: all 1s;
+        background: transparent;
+        color: white;
+        transition: all 0.7s;
+        backdrop-filter: blur(5px);
+        span:nth-child(2) {
+            color: yellow;
+            font-size: medium;
+        }
+    }
+    .play {
+        transform: scale(1.1);
+        border-color: yellow;
+        box-shadow: 0 0 10px red;
+    }
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+   
+    <title>Drum Kit</title>
+</head>
+<body>
+    <div class="title">
+        Drum Kit : PRESS KEY
+    </div>
+
+    <div class="keys">
+        <div data-key="65" class="key"><span>A</span><span>clap</span></span></div>
+        <div data-key="83" class="key"><span>S</span><span>kick</span></span></div>
+        <div data-key="68" class="key"><span>D</span><span>vinyl</span></span></div>
+        <div data-key="70" class="key"><span>F</span><span>trash</span></span></div>
+        <div data-key="71" class="key"><span>G</span><span>perc</span></span></div>
+    </div>
+
+    <audio data-key="65" src="static/clap.wav"></audio>
+    <audio data-key="83" src="static/Kick.wav"></audio>
+    <audio data-key="68" src="static/vinyl.wav"></audio>
+    <audio data-key="70" src="static/trash.wav"></audio>
+    <audio data-key="71" src="static/Perc.wav"></audio>
+    
+   
+    <script src="script.js"></script>
+</body>
+</html>
